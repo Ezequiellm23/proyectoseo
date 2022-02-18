@@ -1,0 +1,73 @@
+header .socaloArriba {
+  background-color: #95a194;
+  width: auto;
+  height: 30px;
+  z-index: 200;
+  text-align: center;
+  font-family: Hind Light; }
+  header .socaloArriba p {
+    color: white;
+    padding: 5px;
+    font-size: small; }
+
+header .logoClass .logoDelHeader {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  left: 550px;
+  z-index: 10; }
+
+header .logoClass .logoDelHeader {
+  transition: height 1s; }
+
+header .logoClass .logoDelHeader:hover {
+  height: 90px; }
+
+header .cuentaSesion .opcionesUsuario li {
+  display: inline-block;
+  position: relative;
+  bottom: 70px; }
+
+footer div {
+  color: #e8bf6d; }
+  footer div .text {
+    color: #e8bf6d; }
+
+.bodyIndex .opcionesUsuario {
+  position: relative;
+  left: 950px;
+  top: 2px;
+  text-decoration: none;
+  list-style: none; }
+  .bodyIndex .opcionesUsuario a {
+    color: #95a194;
+    text-decoration: none;
+    font-family: Hind Light;
+    font-size: small; }
+    .bodyIndex .opcionesUsuario a:hover {
+      color: #7c877b; }
+
+.bodyIndex main {
+  text-align: center; }
+  .bodyIndex main h4 {
+    color: #95a194;
+    font-family: Hind Light; }
+
+.textosBajos .container div {
+  display: inline; }
+  .textosBajos .container div p {
+    text-decoration: none;
+    color: gray; }
+
+.bodyinfo header .socaloArriba {
+  background-color: #95a194;
+  width: auto;
+  height: 30px;
+  z-index: 200;
+  text-align: center;
+  font-family: Hind Light; }
+  .bodyinfo header .socaloArriba p {
+    color: white;
+    padding: 5px;
+    font-size: small; }

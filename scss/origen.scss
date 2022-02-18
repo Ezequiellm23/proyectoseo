@@ -1,0 +1,192 @@
+//Variables
+
+$verdedou: #95a194;
+$mostazadou:#e8bf6d;
+$tipografiadou: Hind Light;
+
+//Secciones en comun
+
+
+header{
+
+       .socaloArriba{background-color:$verdedou;
+        width: auto;
+        height: 30px;
+        z-index: 200;
+        text-align: center;
+        font-family: $tipografiadou;
+        
+      
+        
+        p{
+            color: white;
+            padding: 5px;
+            font-size: small;
+            
+        }
+                      
+
+       }//Fin socaloArriba
+       
+       
+       .logoClass{
+                 
+                 .logoDelHeader{position: relative; 
+                    display: flex;
+                    justify-content: center;
+                    height: 80px;
+                    left: 550px;
+                    z-index: 10;
+
+
+
+                 }//cierre logoDelHeader
+                 
+                 .logoDelHeader{
+             
+                    transition: height 1s;
+                                
+                 }
+
+                 .logoDelHeader:hover {
+                    height: 90px;
+                   
+                }
+                 
+
+       }//cierre logoClass
+
+       .cuentaSesion{
+
+        
+                    .opcionesUsuario{
+                                    
+                                   li{
+                                    display: inline-block;
+                                    position: relative;
+                                    bottom: 70px;;
+                                   }
+
+                    }
+       }  
+
+
+
+}//cierre header
+
+footer{
+          div{
+            color: $mostazadou;
+
+               .text{
+                     color: $mostazadou;
+               }
+
+
+          }
+
+}
+
+//Index
+
+.bodyIndex{
+           
+         .opcionesUsuario{
+                         position: relative;
+                         left: 950px;
+                         top: 2px;
+                         text-decoration: none; 
+                         list-style: none;
+                        
+
+                         a{
+                             color: $verdedou;
+                             text-decoration: none;
+                             font-family: $tipografiadou;
+                             font-size: small;
+                             &:hover{
+                                color: #7c877b;
+                        }
+                            
+                         }
+                         
+         }
+
+            
+         
+
+}
+
+.bodyIndex{
+
+
+       main{text-align: center;
+           
+
+      
+           h4{ color: $verdedou;
+            font-family: $tipografiadou;
+      
+      
+            }
+        }     
+}
+
+.textosBajos{ 
+         
+            .container{ 
+
+                div{display: inline;
+
+               
+
+                
+                p {
+                    text-decoration: none;
+                    color: gray;
+                  }
+
+              }
+
+           }//cierre container
+
+
+
+
+
+} //cierre textosBajos
+
+
+//Info importante
+
+.bodyinfo{
+
+
+          header{
+
+            .socaloArriba{background-color:$verdedou;
+                width: auto;
+                height: 30px;
+                z-index: 200;
+                text-align: center;
+                font-family: $tipografiadou;
+              
+             p{color: white;
+                padding: 5px;
+                font-size: small;
+
+             }   
+
+
+            }
+
+
+
+
+            
+          }
+
+
+
+}
+

@@ -1,0 +1,1460 @@
+
+/*Reseteo*/
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Elementos en comun para todas secciones*/
+
+/*Desktop a toda seccion*/
+
+.imagenPrueba{ max-width: 20%;
+               
+               
+
+}
+
+.probando{
+          display: flex;
+          justify-content: center;
+
+       
+}
+
+@media (min-width:1024px){
+
+       
+
+
+body{
+
+background-color:#ffffff;
+position: relative;
+
+}
+
+.socaloArriba{ background-color:#95a194;
+               width: 100%;
+               height: 30px;
+               z-index: 200;
+
+}
+
+.socaloArriba h5{ color: white;
+                  width: 80%;
+                  margin left: 0;
+                  padding: 10px;
+                  position: relative;
+                  left: 130px;
+                  text-align:center;
+                  font-family: Hind Light;
+
+}
+
+
+
+.logoDelHeader { 
+                 position: relative; 
+                 display: flex;
+                 justify-content: center;
+                 height: 80px;
+                 left: 550px;
+                 z-index: 10;
+}
+/*transiciones*/
+.logoDelHeader{
+             
+             transition: height 1s;
+                         
+}
+
+.logoDelHeader:hover {
+           height: 90px;
+          
+}
+
+.tresImagenes .medidorInfantil{
+                 transition: height 1s
+}
+
+.tresImagenes .medidorInfantil:hover{
+                      height: 400px
+}
+
+.medidorInfantil{
+                display: ;
+}
+
+
+.opcionesUsuario  a{
+               transition: width 1s;
+}
+
+.opcionesUsuario a{
+               width: 100% ;
+               font-family: Hind Light;
+}
+
+
+
+.tresImagenes .libroRecuerdos:hover{
+
+       transform: scale(1.2 1.2);
+
+}
+
+.tresImagenes .medidorInfantil:hover{
+            transform: scale(1.2 1.2);
+
+}
+              
+                    
+
+.tresImagenes .primerasPalabras:hover{
+                  transform: scale(1.2 );
+}
+
+
+/*fin transiciones*/
+
+/*Animaciones*/
+
+.libroRecuerdos:hover{
+              animation: libroRecuerdos;
+              animation-duration: 2s;
+              animation-iteration-count: infinite;
+                
+}
+
+
+@keyframes libroRecuerdos{
+
+           from{ width: 300px;
+
+           }
+
+           to{ width: 400px;
+
+           }
+
+}
+
+.cuentaSesion ul li a{ width: 10%;
+                     font-size: small;
+                     float: right;
+                     padding: -20px 5px ;
+                     text-decoration: none;
+                     color:#95a194;
+                     display: inline-block;                
+                     position: relative;
+                     bottom: 70px;
+                     z-index: 200;
+                  
+}
+
+ .cuentaSesion   { 
+                  width: 90%;
+                  position: relative;
+                  position right: 50px;
+                  padding: 10px;
+                 
+ }      
+ 
+ .cuentaSesion a:hover{
+                       color:#b7c4b6;
+ }
+
+ /*nav del menu*/
+ .menu{     background-color: #fbf4ef;
+             width: 100%;
+             height: 80px;
+
+ }
+                     
+.menu ul li {
+       display:inline-block;
+       position: ;
+       padding: 1px;
+       margin-top: -80px;
+       font-size: 13px;
+       
+}
+
+.menu a {
+       color: #95a194;
+       padding: 10px 20px;
+       text-decoration: none;
+       margin-left: 85px;
+       font-style: normal;
+       font-family: Hind Light;
+       letter-spacing: 1px;
+       
+       }
+
+.menu a:hover{
+              color:#b7c4b6 ;
+}
+
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* submenu */
+.menu ul li ul li a  {
+       position: absolute;
+       display: block;
+       color:#95a194;
+       margin-top: px;
+       margin-left: 120px;
+       background-color:#ffffff;
+       
+       }
+
+
+.menu .desplegable{
+                   display: none;
+
+}
+
+.menu .novedades:hover .desplegable{
+                              display: block;
+             
+}
+
+.subitem1 {
+          position: absolute; 
+          left: 800px;
+          top: 130px;
+          padding: 80px;
+}
+
+.subitem2 {
+          position: absolute;
+          left: 800px;
+          top: 160px;
+          padding: 100x;
+}
+
+
+#menu li{
+     float: none;
+}
+
+
+
+h3 {
+      color: rgb(115, 163, 138);
+      font: verdana;
+}
+
+
+p {
+    color: #95a194;
+    font-style: normal;
+}
+
+
+
+header { background-color:#ffffff;
+         height: 20%;
+         width: 100%;
+         position: fixed;
+         z-index: 10;
+}
+
+
+
+.botonesFooter a{
+                 margin-left: 70px;
+                 display: inline;
+                 color:#e8bf6d;
+                 text-decoration: none;
+                 position: relative;
+                 bottom: 40px;
+
+}
+
+.botonesFooter h5{ position: relative;
+                   right: 70px;
+
+}
+
+.redesSociales{ color: #e8bf6d;
+              
+               position: relative;
+             
+               padding: 10px;
+               bottom: 100px;
+               right: 80px;
+               margin-left: 950px;
+               width: 30%;
+               height: 60px;
+
+}
+
+.redesSociales h5{ position: relative;
+              right:70px;
+
+}
+
+.logosRedes a{ display: inline;
+              margin: 10px;
+              position: relative;
+              bottom: 2px;
+              right: 20px;
+              padding: -70px;
+}
+
+} /*Cirre Media Queries Destktop para secciones en comun*/
+
+  /*Desktop a index*/
+
+  .menu {
+       display: flex;
+       justify-content: center;
+       background-color:;
+       width: 95%;
+       height: 25%;
+       padding: 20px;
+       position: absolute;
+       top: 120px;
+       
+}             
+
+
+   
+
+.carousel      {position: relative;
+                max-width: ;
+                top: 75px;
+                padding: 50px; ;
+                margin: 80px; 
+
+            }
+.imagenCarousel{
+               max-width: 100%;
+}            
+
+.bebesYpeques { 
+              position: relative;
+              text-align:center ;
+              color:#95a194 ;
+              font:normal;
+
+              width: 90%;
+              grid-column: 4|5;
+              grid-row: 4|5;
+
+}
+
+.tresImagenes{
+     
+     position: relative;
+     left: 180px;
+     display: grid;
+     grid-template-columns: 5px repeat(30px) 5px;
+     grid-template-rows: 100px;
+     padding: 10px;
+     border: 20px;
+     display: inline;
+     grid-column: span 3;
+     z-index: -1;
+
+     }
+
+     .tresImagenes a{
+                     padding: 10px;
+     }
+
+     .libroRecuerdos{ 
+               max-width: 300px;
+               grid-column: 2/3;       /*ubicacion 1er foto en 2da columna*/
+      } 
+
+    .medidorInfantil{
+                max-width: 300px;
+                grid-column: 3/4;
+
+}
+
+    .primerasPalabras{
+                  max-width: 300px;
+                  grid-column: 4/5;
+}
+
+.textosBajos{
+       
+       width: 90%;
+       height: 100px;
+       padding: 30px;
+       content: 50px;
+       margin: 5px;
+}           
+
+.indexfooter {
+              background-color:#fbf4ef;
+              height: 150px;
+              z-index: 60;
+              display: grid;
+              grid-column: 40% 20% 40%;
+              grid-column: span 3;
+       }
+
+       .logosredes a{ display: inline;
+              margin: 10px;
+              position: relative;
+              bottom: 2px;
+              right: 20px;
+              padding: -70px;
+
+} /*cierre media queries desktop*/
+
+
+/*Desktop a mundodou.html*/
+.mundoDouMain{                               /*Elemento contenedor*/
+       display: grid;
+       max-width: 1280px;
+       grid-gap: 20px;
+       grid-template-columns:50% 50%;
+       grid-template-rows: 50% 50%;
+    }    
+    
+    .mundoDou{
+              position: relative;
+              grid-column: 1/2;
+              grid-row: 1/2;
+    }
+
+    .acercaProductos{ position: relative;
+      grid-column: 1/2;
+      grid-row: 2/3;
+      top: 60px;
+      bottom: 100px;
+      margin: 20px;
+      width: 100%;
+      height:50%;
+      }
+
+.romi{ max-width: ;
+      position: relative;
+     
+}
+
+
+.asideFotoRomi{position:relative;
+              grid-column: 2/3;
+              grid-row: 1/3
+              left: 500px;
+              top: 200px;
+              max-width: 100%;
+}
+
+
+/*Tablet para secciones en comun*/
+
+@media (min-width: 481px) and (max-width: 1023px){
+
+       .logoDelHeader { 
+              position: relative; 
+              display: flex;
+              justify-content: center;
+              height: 80px;
+              left: 550px;
+              z-index: 10;
+            }
+
+       .socaloArriba{ background-color:#95a194;
+          width: 100%;
+          height: 30px;
+          z-index: 200;
+      }
+
+      .socaloArriba h5{ color: white;
+          width: 80%;
+          margin left: 0;
+          padding: 10px;
+          position: relative;
+          left: 60px;
+          text-align:center;
+          font-family: Hind Light;
+      }
+
+      .menu ul li 
+        display:inline-block;
+        position: ;
+        padding: 2px;
+        margin-top: -80px;
+        font-size: 16px;
+      
+
+      .menu a 
+       color: #95a194;
+       padding: 5px 10px;
+       text-decoration: none;
+       margin-left: 85px;
+       font-style: normal;
+       font-family: Hind Light;
+       letter-spacing: 1px;
+       
+       
+
+
+.menu a:hover{
+              color:#b7c4b6 ;
+}
+
+
+
+
+ ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+}
+
+/*Para index*/
+
+
+.carousel       {position: relative
+                 top: 10px
+                 padding: 10px
+                 margin: 80px;
+
+}
+
+
+.textosBajos{ 
+      
+       width: 90%;
+       height: 100px;
+       padding: 20px;
+       content: 50px;
+       margin: 5px;
+}           
+
+
+ 
+.textosBajos h6 p{
+              position: relative;
+              left: 20px;
+              display: inline;
+              color: #95a194;
+              height: 150px;
+              padding: 5px;
+              
+ } 
+ 
+ .enviosCabaGba{ width: 25%;
+                 position: relative;
+                 left: 150px;
+                 color: #95a194;
+
+ }
+
+.enviosGratis {
+               width: 25%;
+               position: relative;
+               left: 550px;
+               bottom: 50px;
+               color: #95a194;
+              
+
+} 
+
+.mediosPago{
+             width: 25%;
+             position: relative;
+             left: 900px;
+             bottom: 80px;
+             color: #95a194;
+
+}
+
+ /* Grid y Media Queries a index*/
+ 
+
+
+
+    /*Tablet*/
+     @media (min-width: 481px) and (max-width: 1023px){  
+
+       /*Tablet a index*/
+
+
+               .menu
+                  display: flex;
+                  justify-content: center;
+                  background-color:#f1e5eb;
+                  width: 95%;
+                  height: 15%;
+                  padding: 20px;
+                  position: absolute;
+                  top: 120px;
+              
+             
+
+               .carousel {     position: relative;
+                               top: 50px;
+                               padding: 8px; ;
+                               margin: 80px; 
+                               max-width: 100%;
+                               max-height: 100%;
+                               }
+
+               .bebesYpeques { 
+                             position: relative;
+                             text-align:center ;
+                             color:#95a194 ;
+                             font:normal;
+                             width: 100%;
+                            
+                            }
+
+                  .tresImagenes a{
+                            padding: 5px;
+                   }      
+             
+                   .tresImagenes{
+            
+           
+                     display: grid;
+                     grid-template-columns: 5px repeat(30px) 5px;
+                     grid-template-rows: 50px;
+                     padding: 10px;
+                     border: 20px;
+                     display: inline;
+                     grid-column: span 3;
+                     z-index: -1;
+         
+                     }
+
+                     .libroRecuerdos{ 
+                            max-width: 280px;
+                            grid-column: 2/3;
+                             
+      
+                      } 
+
+                      .medidorInfantil{
+                            max-width: 280px;
+                            grid-column: 3/4;
+     
+                 }
+
+                 .primerasPalabras{
+                     max-width: 280px;
+                     grid-column: 4/5;
+                   }
+         
+                  
+
+
+              .indexfooter {
+                            
+                            background-color:#fbf4ef;
+                            height: 150px;
+                            z-index: 60;
+                            display: grid;
+                            grid-column: 40% 20% 40%;
+                            grid-column: span 3;
+                           }
+                     
+
+                             
+              .logosredes a{ display: inline;
+                     margin: 10px;
+                     left: 650px;
+                     position: relative;
+                     bottom: 80px;
+                     padding: 5px; 
+                    }
+                   
+              
+         /*tablet a mundo dou*/
+
+          .mundoDouMain{                               /*Elemento contenedor*/
+              display: grid;
+              max-width: 1023px;
+              grid-gap: 20px;
+              grid-template-columns:40% 40%;
+              grid-template-rows: 40% 40%;
+           }                                 
+      
+
+             .logoDelHeader{ position: relative;
+                             left:350px;
+
+             }
+
+
+            .mundoDou {
+                     
+                      width: 70%;
+
+            }
+            .mundoDou p{
+                      color: ;
+                      padding: 10px;
+                      
+            }
+
+            .acercaProductos{
+                             width: 70%;
+            }
+
+            .asideFotoRomi{
+                           position:relative;
+                           left: 1px;
+                           top: 200px;
+                           max-width: 85%;
+            }
+
+
+            .romi{
+                  
+                  position: relative;
+                  top: 50px;
+                  
+                  
+            }
+
+
+
+             
+ } /*cierre media queries tablet*/
+
+
+ @media  (min-width: 320px) and (max-width: 480px){
+
+       /*Smartphone a index*/
+
+       .menu
+                  background-color:#43f151;
+                  width: 95%;
+                  height: 25%;
+                  padding: 20px;
+                  position: absolute;
+                  top: 120px;
+           
+
+       .carousel {position: relative;
+              top: 200px;
+              padding: 10px; 
+              margin: 80px; 
+              max-width: 200px;
+              
+              }
+
+         .imagenCarousel{
+                        position: relative;
+                        max-width: 200px;
+                        padding: 5px;
+
+
+              }
+
+              .bebesYpeques { 
+                      position: relative;
+                      text-align:center;
+                      color:#081607 ;
+                      font:normal;
+                      width: 100%;
+                     
+                     }
+          
+                     .tresImagenes{
+            
+           
+                            display: grid;
+                            grid-template-columns: 80px;
+                            grid-template-rows: 80px;
+                            background-color: aquamarine;
+                            padding: 10px;
+                            border: 10px;
+                            display: inline;
+                            grid-column: span 1;
+                            z-index: -1;
+                
+                            }
+
+              .indexfooter {
+                            
+                            background-color:#4a3c32;
+                            height: 150px;
+                            display: grid;
+                            grid-column: 40% 20% 40%;
+                            grid-column: span 3;
+                           }
+
+
+       /*Smartphone a MundoDou*/
+       .mundoDouMain{                               /*Elemento contenedor*/
+              display: grid;
+              max-width: 1280px;
+              grid-gap: 20px;
+              grid-template-columns:50% ;
+              grid-template-rows: 40% 40% 40%;
+           }                                 
+      
+      
+       .logoDelHeader{
+                      position: relative;
+                      left: 200px;
+       }
+
+       .menu{
+              width: 40%;
+       }
+
+
+       .asideFotoRomi{position:relative;
+              grid-column: 1/2;
+              grid-row: 3/4;
+              left: 500px;
+              top: 200px;
+              max-width: 50%;
+             }
+
+             .mundoDou{
+              position: relative;
+              grid-column: 1/2;
+              grid-row: 1/2;
+              color:#95a194;
+    }
+
+        
+        .mundoDou p{
+                      
+                      color: rgb(0, 0, 0);
+        }
+
+ } /*cierre smartphone*/
+
+ 
+
+
+/*Info Importante : contenido principal será en acordeon*/
+
+.bodyinfo{
+       justify-content: center;
+       
+       
+}
+
+.infoFooter{
+            position: fixed;
+            bottom: 0px;
+            width: 100%;
+            background: #fbf4ef;
+            padding: 5px;
+            
+}
+
+.infoFooter h5 {
+              text-decoration: none;
+              color: #e8bf6d;
+              font-family: Hind Light;
+
+}
+
+.infoFooter a{ color:#e8bf6d ;
+               text-decoration: none;
+
+}
+.infoFooter .text {
+                   color:#e8bf6d ;
+}
+
+.infoFooterMain{
+                display: flex;
+                justify-content: center;
+
+
+}
+
+.infoFooterMain .box { 
+                     flex-basis: 50%;
+                     padding: 10px 20px;
+                    
+
+
+}
+
+.box h5{
+       font-size: 1.125rem;
+       font-weight: 600;
+
+}
+
+.leftBox a{
+         display:inline-block;
+}
+
+
+
+.infofooter
+            background-color: #fbf4ef;
+            position: absolute;
+            top: 1400px;
+            height: 120px;
+
+
+.infofooter .logosRedes
+             position: relative;
+             top: 1380px;
+
+
+.infoMain background:linear-gradient(#ddb0a6 #fbf4ef);{
+           width: 90%;
+           height: 2000px;
+           padding: 50px;
+           margin: 40px;
+           text-align: left;
+           position: relative;
+           z-index: -5;
+           top: 200px;
+       }
+           
+           
+
+
+
+
+
+
+.containerPedidos{
+                  width: 600px;
+                  position: relative;
+                  top: 10px;
+                  
+                  
+
+}
+
+.containerPedidos section  ul li { 
+                            overflow: hidden;
+                            max-height: 0;
+                            text-align: justify;
+}
+
+.containerPedidos section  ol li {
+                               overflow: hidden;
+                               max-height: 0;
+                               text-align: justify;
+                            
+}
+
+.containerPedidos section p{
+                            overflow: hidden;
+                            max-height: 0;
+                            text-align: justify;
+                            transition: all .2s ease-in-out;
+}
+
+.containerPedidos section a{ 
+                        text-decoration: none;
+                        display: block;
+                        text-align: left;
+                        padding: 15px;
+                        font-family: Hind Light;
+                        color:#95a194;
+                        font-weight: bold;
+                        border-bottom: 2px solid #9694a1;
+
+}
+
+.containerPedidos :target{
+       max-height: 200%;
+}
+
+.section:target p{
+
+                              max-height: 120px;
+                              padding: 10px;
+}
+
+.containerPreguntas{
+                   width: 600px;
+          
+                
+
+}
+
+.containerPreguntas section p{  
+          overflow: hidden;
+          max-height: 0;
+          text-align: justify;
+
+
+}
+
+.containerPreguntas section a{
+                              text-decoration: none;
+                              display: block;
+                              text-align: left;
+                              padding: 15px;
+                              font-family: Hind Light;
+                              color:#95a194;
+                              font-weight: bold;
+                              border-bottom: 2px solid color #95a194;
+
+
+}
+
+.containerPreguntas :target p{  
+                              max-height: 120px;
+                              padding: 10px;
+
+
+}
+
+
+#infoMain section margin left: 500px;
+                  
+
+
+
+
+#infoMain p{
+            width: 40%;
+            font-family: Hind Light;
+            
+}
+
+#infoMain h3{
+             font-family: Hind Light;
+             position: relative;
+             top: 0px;
+}
+          
+ #contactoMain{ 
+                
+
+
+ }
+
+ 
+
+
+ /* Mundo Dou*/
+
+
+ .border{
+         border: solid 1px black;
+ }
+
+ .bodyMundoDou{
+               width: 100%;
+               height: 100vh;
+ }
+
+ .mundoDou{position: relative;
+           width: 100%;
+           height: 100%;
+           margin: 20px;
+           top: 200px;
+           
+       }
+
+.mundoDou p{
+           padding:10px;
+}       
+           
+
+.mundoDou h3 {
+              position: relative;
+              left: 10px;
+             
+
+}     
+
+
+
+.acercaProductos p{
+                   padding: 10px;
+}
+.acercaProductos h3 {
+                    position: relative;
+                    left: 10px;
+}
+
+.
+
+ .mundoDouMain{
+              height: 900px
+ }
+
+ .footerMundo{
+             grid-column: span 4;
+             
+
+ }
+
+ /*Media Queries MundoDou*/
+
+
+               
+
+        
+     
+ 
+     
+         
+ 
+   
+ 
+ 
+
+ /* Contacto */
+
+ .seguinos h4{
+              padding: 10px;
+              color:#95a194;
+              
+ }
+
+ .seguinos p  {
+               padding: 10px;
+               color: #95a194;
+
+ }
+
+ .seguinos a{
+             padding: 10px 10px 10px;
+             display: inline-block;
+             text-decoration: none;
+             color: #95a194;
+ }
+
+ #contactoMain{
+   
+            height: 700px;
+            position: relative;
+            top: 138px;
+            margin: 20px;
+            padding: 10px;
+            z-index: -1;
+            background-image: linear-gradient(#fbf4ef, #e8bf6d , #fbf4ef );
+       }
+          
+ 
+
+ 
+               
+
+ .seguinos{ 
+            height: 200px;
+            width: 30%;
+            position: relative;
+            top: 20px;
+
+
+ }
+
+ .contactanos{ background-image: linear-gradient(#fbf4ef, #e8bf6d , #fbf4ef );
+               position: relative;
+               left: 500px;
+               bottom: 205px;
+               width: 60%;
+               height: 100%;
+               padding: 10px;
+
+ }
+
+ .contactanos h5{
+                 font-style: normal;
+                 color: #95a194;
+                 
+                 
+                
+ }
+
+ /*IniciarSesion*/
+
+ .loginBody{   position: absolute;
+               
+     
+             
+               
+
+ }
+
+ .login{
+             background-color: #95a194;
+             position: absolute;
+             display: block;
+             box-shadow: 7px 13px 37px #768075;
+             background-image: linear-gradient(#95a194 #e8bf6d #fbf4ef );
+             width: 800px;
+             height: 400px;
+             top: 30%;
+             left: 30%;
+             margin: 10px;
+             transform: translate(-50; -50);
+             padding: 15px;
+             z-index: -1;
+             
+ }
+
+ .loginMain{
+            background-image: linear-gradient(#95a194 #e8bf6d #fbf4ef );
+            background-color:;
+            display: flex;
+            height: 600px;
+           
+          
+            
+            left: 150px;
+            z-index: -1;
+ }
+
+ .loginSesion{
+              display: block;
+ }
+
+ 
+
+ .login h5{ 
+           font-family: Hind Light;
+           color: rgb(255, 255, 255);
+           padding: 5px;
+ }
+
+ .sesionBoton {position: relative;
+              left: 1px;
+              top: 140px;
+              display: inline-block;
+              
+              border-radius: 5px;
+              color: white;
+              background-color: #e8bf6d;
+              text-decoration: none;
+              justify-content: center;
+              padding: 10px;
+              width: 200px;
+              font-family: Hind Light;
+              box-shadow: #081607;
+              animation: pulse 1.5s infinite;
+ }
+
+ @keyframes pulse{
+        0%{ transform: scale(.99);
+            box-shadow: 0 0 0 0 rgba(256, 256, 256, .1);
+
+        }
+
+        70%{ transform: scale(1);
+              box-shadow: 0 0 0 25px rgba(256, 256, 256, .1);
+
+        }
+
+        100%{ transform: scale(.99);
+              box-shadow:  0 0 0 0 rgba(256, 256, 256, .1);
+             
+
+
+        }
+ }
+
+ 
+
+
+
+
+ /* productos */
+
+.sectionProductos{ height: 1000px;
+                  background-color:#fbf4ef; 
+                 
+
+}
+
+.sectionProductos h3{ color: rgb(1, 9, 1);
+                     z-index: 2;
+                     position: relative;
+                     bottom: 300px;
+                     
+                     
+                
+
+}
+
+.losProductos{ position: relative;
+               top: 300px;
+               background-color:#fbf4ef;
+               height: 60%;
+               width: 30%;
+               padding: 10px;
+               left: 70px;
+               margin: 20px;
+             
+
+}
+
+.losProductos li{ padding: 10px;
+                  
+                  
+
+}
+.losProductos li a{ display: block;
+                    padding: 5px;
+                    color:#95a194;
+                    text-decoration: none;
+                    font:bold;
+                    border-bottom: 2px solid #ddb0a6;
+                    
+                 
+
+}
+
+
+
+
+
+.losProductos a:hover{
+                     color: #e8bf6d;
+                     font-size: larger;
+                    
+                     
+                     
+
+}
+
+.losProductos li ul {
+                    display:none;
+                    position: absolute;
+                    background-color: #fbf4ef;
+                    width: 50%;
+                   
+}
+
+.losProductos li:hover > ul {
+                            display: block;
+}
+  
+
+
+/*menus despegables de Productos*/
+
+.nacimientosDesplegables{
+                         position: absolute;
+                         left: 400px;
+                         top: 10px
+                         
+}
+
+.personalizadosDespegables{ position: absolute;
+                            left: 400px;
+                            top: 60px;
+
+}
+
+.decoDespegable{
+                 position: absolute;
+                 left: 400px;
+                 top: 110px;
+}
+
+.celebrarDespegable{
+                    position: absolute;
+                    left: 400px;
+                    top: 160px;
+}
+
+.emprenderDespegable{     position: absolute;
+                          left: 400px;
+                          top: 210px;
+
+}
+
+.didacticoDespegable{
+                     
+                          position: absolute;
+                          left: 400px;
+                          top: 260px;
+}
+
+.coleccionDespegable{
+                     position: absolute;
+                     left: 400px;
+                     top: 290px;
+}
+
+}
+
+/* Carteles*/
+.bodyCarteles{
+       background-color: #ffffff;
+       height: 600px;
+       width: 90∞;
+       display: grid;
+       min-height:100vh;
+       grid-auto-rows: auto 1fr auto;
+}
+
+.cartelesMain{
+     padding: 10px;
+     height: 2000px;
+     background-color: #fffcf7;
+     position: relative;
+     top: 300px
+    
+}
+
+.card-title{
+            text-decoration: none;
+            color: #9694a1;
+            font: Hind Light;
+}
+
+
+
+.containerCarteles a{
+                     width: 100%;
+                     margin: 5px;
+                     padding: 5px;
+}
+
+.containerCarteles img{
+                       max-width: 100%;
+}
+
+.contenedorTarjetas a{
+                    width: 100%;
+                    margin: 5px;
+                    padding: 5px;
+}
+
+
+
+
+/*Carteles Flex*/
+
+.gallery{
+              
+                 padding: 80px 0;
+}
+
+/*Tarjetas Cumple Mes Flex*/
+
+.tarjetasCumpleMes{
+                   display: flex;
+}
+
+
+/* Flexbox */
+
+.padre-flex{
+       display: flex;
+}
