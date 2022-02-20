@@ -1,11 +1,30 @@
-header .socaloArriba {
+.cartelesBody-nombre-color {
+  background-color: #95a194; }
+
+.cartelesBody-nombre-color {
+  background-color: #e8bf6d; }
+
+.cartelesBody-nombre-color {
+  background-color: #ddb0a6; }
+
+.cartelesBody-nombre-color {
+  background-color: #fbf4ef; }
+
+.socaloArribaInfo {
+  background-color: #ddb0a6; }
+
+.contenedorTarjetas {
+  margin: 20px;
+  padding: 20px; }
+
+header .socaloArriba, header .socaloArribaInfo {
   background-color: #95a194;
   width: auto;
   height: 30px;
   z-index: 200;
   text-align: center;
   font-family: Hind Light; }
-  header .socaloArriba p {
+  header .socaloArriba p, header .socaloArribaInfo p {
     color: white;
     padding: 5px;
     font-size: small; }
@@ -60,14 +79,14 @@ footer div {
     text-decoration: none;
     color: gray; }
 
-.bodyinfo header .socaloArriba {
+.bodyinfo header .socaloArriba, .bodyinfo header .socaloArribaInfo {
   background-color: #95a194;
   width: auto;
   height: 30px;
   z-index: 200;
   text-align: center;
   font-family: Hind Light; }
-  .bodyinfo header .socaloArriba p {
+  .bodyinfo header .socaloArriba p, .bodyinfo header .socaloArribaInfo p {
     color: white;
     padding: 5px;
     font-size: small; }

@@ -1,8 +1,52 @@
-//Variables
+//Variables colores
 
 $verdedou: #95a194;
 $mostazadou:#e8bf6d;
-$tipografiadou: Hind Light;
+$rosadou:#ddb0a6;
+$amarillodou:#fbf4ef;
+
+//Mapa con each
+$colores:(
+   verdedou: #95a194,
+   mostazadou:#e8bf6d,
+   rosadou:#ddb0a6,
+   amarillodou:#fbf4ef,
+);
+
+//Each para el mapa
+@each $nombre-color, $valorescolor in $colores{
+   .cartelesBody-#{nombre-color} {
+      background-color: $valorescolor;
+   }
+
+}
+
+
+//Extend
+.socaloArribaInfo{
+   @extend .socaloArriba;
+   background-color: #ddb0a6;
+   
+}
+
+//Mixin
+@mixin galleryProducts ($marginGallery, $paddingGallery){
+
+                       margin: $marginGallery;
+                       padding: $paddingGallery;
+
+}
+.contenedorTarjetas{
+                    @include galleryProducts(20px,20px);
+}
+
+
+//tipografia
+$tipografiadou:Hind Light;
+
+
+
+
 
 //Secciones en comun
 

@@ -1418,7 +1418,10 @@ header { background-color:#ffffff;
             font: Hind Light;
 }
 
-
+.containerCarteles{
+                   margin: 10px;
+                   padding: 10px;
+}
 
 .containerCarteles a{
                      width: 100%;
@@ -1435,6 +1438,7 @@ header { background-color:#ffffff;
                     margin: 5px;
                     padding: 5px;
 }
+
 
 
 
@@ -1457,4 +1461,8 @@ header { background-color:#ffffff;
 
 .padre-flex{
        display: flex;
+}
+
+.contenedorTarjetas{
+                   display: inline;
 }
